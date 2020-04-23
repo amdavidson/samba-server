@@ -4,7 +4,7 @@ A basic single user samba-server suitable for small scale NAS-like installations
 
 ## Running Samba Server
 
-No real tricks here, the only essential thing is setting a password in the environment vars
+No real tricks here, the only essential thing is setting a password in the environment vars, the username is currently hardcoded to `share`.
 
 To do so with a docker-compose file:
 
